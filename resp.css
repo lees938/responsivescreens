@@ -1,0 +1,56 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background: #CAB6A7;
+  font-family: arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #140901;
+}
+
+h2 {
+  font-style: italic;
+  color: #604D40;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.wrapper {
+  width: 70%;
+  padding: 2em;
+}
+
+.nof {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+.ssen {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: #CAB6A7;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #604D40;
+    color: #CAB6A7;
+  }
+}
